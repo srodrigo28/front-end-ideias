@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #c1c1c1;
+}
+.card{
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    justify-content: space-around;
+    min-width: 300px;
+    min-width: 400px;
+    height: 100px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    transition: .5s;
+}
+.card:hover{
+    transform: translateX(20px);
+}
+
+.card-content{
+    gap: 5px;
+    display: flex;
+    padding-left: 15px;
+    flex-direction: column;
+
+}
+.fa-solid{
+    font-size: 40px;
+    color: green;
+}
+.fa-arrow-up{
+    color: red;
+}
+.grupo{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+span{
+    color: #fff;
+    font-weight: bold;
+    padding: 8px;
+    text-align: center;
+    border-radius: 10px;
+}
+.deposito{
+    background-color: green;
+}
+.retirada{
+    background-color: red;
+}
+.rendimento{
+    background-color: blue;
+}
+.acumulado{
+    background-color: goldenrod;
+}
+
